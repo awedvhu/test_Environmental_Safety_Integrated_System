@@ -1,0 +1,25 @@
+body {
+ background: black;
+}
+.header {
+ background: aqua;
+ height: 60px;
+}
+ul {
+ list-style-type: none;
+}
+.logo {
+ float: left;
+ background: white;
+ margin: 20px;
+}
+.account {
+ float: right;
+ margin: 20px;
+}
+.menu_list {
+ float: left;
+ width: 100px;
+ height: 50px;
+ background: yellow;
+}

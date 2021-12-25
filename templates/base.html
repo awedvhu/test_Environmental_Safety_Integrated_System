@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <meta charset="utf-8" />
+        {% load static %}
+        <link href="{% static "css/base.css" %}" rel="stylesheet" type="text/css">
+        {% block title %}
+        {% endblock %}
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">LOGO</div>
+            <div class="account">
+                123
+            </div>
+        </header>
+
+        <aside>
+            <nav class="menu">
+                <ul>
+                    <li class="menu_list">戰情室</li>
+                    <li class="menu_list">代處理事件</li>
+                    <li class="menu_list">事件分析</li>
+                    <li class="menu_list"></li>
+                </ul>
+            </nav>
+        </aside>
+        {% block content %}
+        {% endblock %}
+        <footer>
+
+        </footer>
+    </body>
+
+</html>
